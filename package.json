@@ -1,0 +1,23 @@
+{
+  "name": "paseo-compacto",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Plugin de Paseo: los tool calls entre dos mensajes en una sola línea plegable, como VS Code.",
+  "license": "MIT",
+  "files": [
+    "paseo-plugin.json",
+    "README.md",
+    "index.client.ts",
+    "index.server.ts"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.ts"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.11.2",
+    "@types/node": "^22.20.4",
+    "typescript": "^5.9.3"
+  }
+}
