@@ -2,5 +2,5 @@
   "id": "paseo-compacto",
   "name": "Vista compacta",
   "description": "Quita del timeline el Thinking ya terminado para que «Tool call display → Summary» junte en una sola línea plegable todas las tools entre dos mensajes, como VS Code.",
-  "requirements": { "paseo": ">=0.11.2 <0.13.0" }
+  "requirements": { "paseo": ">=0.11.2 <0.14.0" }
 }
